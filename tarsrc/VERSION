@@ -1,4 +1,4 @@
 Lutris - version 0.5.8.1
 
 Follow this naming convention for the tarball:
-%{name}-%{version}
+%{name}_%{version}

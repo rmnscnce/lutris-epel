@@ -2,7 +2,7 @@
 Name:           lutris
 
 Version:        0.5.8.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 
 Summary:        Install and play any video game easily
 
@@ -38,6 +38,8 @@ Recommends:     wine-core
 BuildRequires:  fdupes
 BuildRequires:  libappstream-glib
 
+Patch0:         removing-python-magic-dep.patch
+
 %description
 Lutris is a gaming platform for GNU/Linux. Its goal is to make
 gaming on Linux as easy as possible by taking care of installing
@@ -46,7 +48,7 @@ do is play the game. It aims to support every game that is playable
 on Linux.
 
 %prep
-%autosetup -v -n %{name}-%{version} -p1
+%autosetup -v -n %{name}-%{version}
 
 
 %build
