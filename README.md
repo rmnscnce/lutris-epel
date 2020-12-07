@@ -5,7 +5,12 @@
 
 **This is not an official repository for Lutris on RHEL/CentOS/Oracle Linux**
 
+### [Fedora Copr page](https://copr.fedorainfracloud.org/coprs/rmnscnce/lutris-epel/)
+
 ---
+
+##### Build status for `lutris` on EPEL 8:
+<a href="https://copr.fedorainfracloud.org/coprs/rmnscnce/lutris-epel/package/lutris-el8"><img src="https://copr.fedorainfracloud.org/coprs/rmnscnce/lutris-epel/package/lutris-el8/status_image/last_build.png"></a>
 
 ## Description
 
