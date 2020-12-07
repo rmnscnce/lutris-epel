@@ -1,0 +1,37 @@
+.play-button {
+  padding: 0;
+  border: 0;
+  background-color: rgb(255, 153, 0);
+}
+.play-button > label {
+  background-color: rgb(255, 153, 0);
+  color: rgb(55, 55, 55)
+}
+
+.lutris-logview > text {
+  color: rgb(255, 199, 116);
+  background-color: rgb(47, 47, 47);
+}
+
+.lutris-logview > text > selection {
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 199, 116);
+}
+
+.sidebar button {
+  padding: 0;
+  border: 0;
+}
+
+.sidebar button > image {
+  padding: 0;
+  border: 0;
+}
+
+.panel-button label {
+    font-weight: normal;
+}
+
+.sidebar row:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
