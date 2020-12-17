@@ -41,8 +41,6 @@ Recommends:     wine-core
 BuildRequires:  fdupes
 BuildRequires:  libappstream-glib
 
-Patch0:         removing-python-magic-dep.patch
-
 %description
 Lutris is a gaming platform for GNU/Linux. Its goal is to make
 gaming on Linux as easy as possible by taking care of installing
